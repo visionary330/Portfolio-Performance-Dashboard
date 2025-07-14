@@ -50,8 +50,8 @@ A responsive, data-driven web application built in React, styled with Tailwind C
 ### Steps
 
 ```bash
-git clone https://github.com/visionary330/Portfolio-Performance-Dashboard.git
-cd Portfolio-Performance-Dashboard
+git clone https://github.com/visionary330/portfolio-performance-dashboard.git
+cd portfolio-performance-dashboard
 npm install
 ```
 
@@ -82,13 +82,13 @@ You can containerize and run the project using Docker.
 ### 1. Build Docker Image
 
 ```bash
-docker build -t portfolio-dashboard .
+docker build -t portfolio-performance-dashboard .
 ```
 
 ### 2. Run Docker Container
 
 ```bash
-docker run -p 5173:5173 portfolio-dashboard
+docker run -p 3000:3000 portfolio-performance-dashboard
 ```
 
 ### 3. Access the App
