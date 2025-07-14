@@ -18,9 +18,8 @@ const StatCard = ({ title, value, delta, icon }: StatCardProps) => {
         <p className="text-2xl font-bold text-black">{value}</p>
         {delta && (
           <p
-            className={`text-sm flex items-center space-x-1 mt-1 ${
-              isNegative ? 'text-red-600' : 'text-green-600'
-            }`}
+            className={`text-sm flex items-center space-x-1 mt-1 ${isNegative ? 'text-red-600' : 'text-green-600'
+              }`}
           >
             {isNegative ? (
               <ArrowDownRight className="w-4 h-4 text-red-500" />

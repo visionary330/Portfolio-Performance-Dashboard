@@ -1,66 +1,79 @@
 [
-    {
-      "date": "2023-06-22",
-      "portfolioValue": 1000000,
-      "benchmarkSP500": 1000000,
-      "benchmarkRussell2000": 1000000,
-      "benchmarkMSCIWorld": 1000000,
-      "cashFlow": 1000000,
-      "marketEvents": ["portfolio_inception"]
-    },
-    {
-      "date": "2024-06-21",
-      "portfolioValue": 1087234,
-      "benchmarkSP500": 1063421,
-      "benchmarkRussell2000": 1021876,
-      "benchmarkMSCIWorld": 1056789,
-      "cashFlow": -100000,
-      "marketEvents": ["quarterly_rebalance"]
-    },
-    {
-      "date": "2024-07-21",
-      "portfolioValue": 1085234,
-      "benchmarkSP500": 1066421,
-      "benchmarkRussell2000": 1021276,
-      "benchmarkMSCIWorld": 1056189,
-      "cashFlow": -2000,
-      "marketEvents": ["quarterly_rebalance"]
-    },
-    {
-      "date": "2024-08-21",
-      "portfolioValue": 1086234,
-      "benchmarkSP500": 1062421,
-      "benchmarkRussell2000": 1028876,
-      "benchmarkMSCIWorld": 105589,
-      "cashFlow": -1005500,
-      "marketEvents": ["quarterly_rebalance"]
-    },
-    {
-      "date": "2024-09-21",
-      "portfolioValue": 1067234,
-      "benchmarkSP500": 10631,
-      "benchmarkRussell2000": 102876,
-      "benchmarkMSCIWorld": 105659,
-      "cashFlow": 610200,
-      "marketEvents": ["quarterly_rebalance"]
-    },
-    {
-      "date": "2024-10-21",
-      "portfolioValue": 108534,
-      "benchmarkSP500": 19421,
-      "benchmarkRussell2000": 102576,
-      "benchmarkMSCIWorld": 105889,
-      "cashFlow": 91800,
-      "marketEvents": ["quarterly_rebalance"]
-    },
-    {
-      "date": "2024-11-21",
-      "portfolioValue": 106234,
-      "benchmarkSP500": 163421,
-      "benchmarkRussell2000": 1021876,
-      "benchmarkMSCIWorld": 109789,
-      "cashFlow": 156000,
-      "marketEvents": ["quarterly_rebalance"]
-    }
-  ]
-  
+  {
+    "date": "2023-06-22",
+    "portfolioValue": 1000000,
+    "benchmarkSP500": 1000000,
+    "benchmarkRussell2000": 1000000,
+    "benchmarkMSCIWorld": 1000000,
+    "cashFlow": 1000000,
+    "marketEvents": [
+      "portfolio_inception"
+    ]
+  },
+  {
+    "date": "2024-06-21",
+    "portfolioValue": 1087234,
+    "benchmarkSP500": 1063421,
+    "benchmarkRussell2000": 1021876,
+    "benchmarkMSCIWorld": 1056789,
+    "cashFlow": -100000,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  },
+  {
+    "date": "2024-07-21",
+    "portfolioValue": 1085234,
+    "benchmarkSP500": 1066421,
+    "benchmarkRussell2000": 1021276,
+    "benchmarkMSCIWorld": 1056189,
+    "cashFlow": -2000,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  },
+  {
+    "date": "2024-08-21",
+    "portfolioValue": 1086234,
+    "benchmarkSP500": 1062421,
+    "benchmarkRussell2000": 1028876,
+    "benchmarkMSCIWorld": 105589,
+    "cashFlow": -1005500,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  },
+  {
+    "date": "2024-09-21",
+    "portfolioValue": 1067234,
+    "benchmarkSP500": 10631,
+    "benchmarkRussell2000": 102876,
+    "benchmarkMSCIWorld": 105659,
+    "cashFlow": 610200,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  },
+  {
+    "date": "2024-10-21",
+    "portfolioValue": 108534,
+    "benchmarkSP500": 19421,
+    "benchmarkRussell2000": 102576,
+    "benchmarkMSCIWorld": 105889,
+    "cashFlow": 91800,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  },
+  {
+    "date": "2024-11-21",
+    "portfolioValue": 106234,
+    "benchmarkSP500": 163421,
+    "benchmarkRussell2000": 1021876,
+    "benchmarkMSCIWorld": 109789,
+    "cashFlow": 156000,
+    "marketEvents": [
+      "quarterly_rebalance"
+    ]
+  }
+]

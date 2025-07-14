@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@mui/material';
 import { Calendar } from 'lucide-react';
-import { holdingsData } from '../data/holdingsData'; // Adjust path as needed
+import { holdingsData } from '../data/holdingsData';
 
 const Header: React.FC = () => {
 
@@ -15,10 +15,10 @@ const Header: React.FC = () => {
     <AppBar position="static">
       <Toolbar
         className="
-      w-[95%] lg:w-3/4 mx-auto
-      flex justify-between items-center
-      [max-width:450px]:grid [max-width:450px]:gap-2
-    "
+        w-[95%] lg:w-3/4 mx-auto
+        flex justify-between items-center
+        [max-width:450px]:grid [max-width:450px]:gap-2
+      "
       >
         <Typography variant="h6">
           Portfolio Dashboard
@@ -26,9 +26,9 @@ const Header: React.FC = () => {
 
         <Typography
           className="
-        flex items-center space-x-2
-        [max-width:450px]:justify-start
-      "
+          flex items-center space-x-2
+          [max-width:450px]:justify-start
+        "
         >
           <Calendar className="w-4 h-4" />
           <span>Last updated: {lastUpdatedString}</span>

@@ -51,14 +51,13 @@ const HoldingsPage: React.FC = () => {
     value: (value / totalPortfolioValue) * 100
   }));
 
-  // Compute Top Holdings
+  // Top Holdings
   const topHoldings = [...holdingsData]
     .sort((a, b) => b.currentValue - a.currentValue)
     .slice(0, 5);
 
   return (
     <div className="space-y-4">
-      {/* Page Title */}
       {/* Holdings Table */}
       <div className="shadow-lg p-5 bg-white rounded-lg overflow-auto">
         <div className="h-[325px] overflow-auto">
