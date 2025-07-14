@@ -62,7 +62,7 @@ npm install
 ### Run Development Server
 
 ```bash
-npm run dev
+npm start
 ```
 
 Open: [http://localhost:3000](http://localhost:3000)
