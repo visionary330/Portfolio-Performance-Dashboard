@@ -51,7 +51,7 @@ A responsive, data-driven web application built in React, styled with Tailwind C
 
 ```bash
 git clone https://github.com/visionary330/Portfolio-Performance-Dashboard.git
-cd portfolio-dashboard
+cd Portfolio-Performance-Dashboard
 npm install
 ```
 
